@@ -21,13 +21,23 @@ html, body {
   gap: 20px;
 }
 
+
 button {
   height: 100px;
   width: 100px;
   font-size: 48px;
   border-radius: 30px;
   cursor: pointer;
+  transition: all 0.3s;
   
+}
+
+button:hover {
+  height: 105px;
+  width: 105px;
+  gap: 10px;
+  font-size:60px;
+  transition: all 0.3s;
 }
 
 .resultContainer {
@@ -36,3 +46,6 @@ button {
   margin-top: 20px;
 }
 
+p{
+  font-style: bold;
+}
